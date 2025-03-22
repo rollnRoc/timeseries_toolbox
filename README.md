@@ -2,32 +2,39 @@
 ## Running the Application
 
 
-1. Install the required packages:
+1. Create a virtual environment (optional but recommended):
+```bash
+cd timeseries-app
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
 
-2. Install required packages for frontend:
+3. Install required packages for frontend:
 ```bash
 npm install axios
 ```
 
 
-3. Start the backend server:
+4. Start the backend server:
 ```bash
 cd backend
 python app.py
 ```
 
 
-4. In a new terminal, start the frontend:
+5. In a new terminal, start the frontend:
 ```bash
 cd frontend
 npm start
 ```
 
-5. Open your browser and navigate to http://localhost:3000
+6. Open your browser and navigate to http://localhost:3000
 
 ## Usage Instructions
 
