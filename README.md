@@ -1,19 +1,33 @@
 # timeseries_toolbox
 ## Running the Application
 
-1. Start the backend server:
+
+1. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+
+2. Install required packages for frontend:
+```bash
+npm install axios
+```
+
+
+3. Start the backend server:
 ```bash
 cd backend
 python app.py
 ```
 
-2. In a new terminal, start the frontend:
+
+4. In a new terminal, start the frontend:
 ```bash
 cd frontend
 npm start
 ```
 
-3. Open your browser and navigate to http://localhost:3000
+5. Open your browser and navigate to http://localhost:3000
 
 ## Usage Instructions
 
